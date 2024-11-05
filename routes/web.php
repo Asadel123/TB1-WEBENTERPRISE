@@ -17,8 +17,21 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/link', function () {
-    return view('link');
+Route::get('/artikel', function () {
+    return view('artikel');
 });
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/homereal', function () {
+    return view('homereal');
+});
+
+Route::get('/homereal', function () {
+    return view('homereal');
+});
+
 
 
